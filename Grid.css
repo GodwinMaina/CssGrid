@@ -1,27 +1,27 @@
-body{
-    margin:5rem;
-    padding: 1rem;
-    background-color: hsl(36, 100%, 99%);
- 
-}
 
 .styled{
-    width: 70vw;
-    height: 5vh;
+ margin-left:7rem;
+ margin-right: 7rem;
+    padding: 1rem;
+    background-color: hsl(36, 100%, 99%);
+    height: 100vh;
 }
+
 
 .navbar{
    display: grid;
    grid-template-columns: repeat(3,1fr);
-   /* justify-content: center;  */
+   justify-content: space-around; 
    text-align: center;
+   margin-top:3rem ;
 }
 
 .name{
     color:black;
     font-weight: bold;
-    font-size: 65px;
-    margin-top: -3rem;
+    font-size: 60px;
+    height: 6px;
+    margin-top: -1.5rem;
 }
 
 .nav{
@@ -29,22 +29,25 @@ body{
     grid-template-columns: repeat(5,1fr);
     grid-column: 3 / 3 ;
     text-align: center;   
+    margin-right: 10rem;
 }
 
 .nav > li{
     list-style: none;
-    font-size: 15px;
-    margin-right: 1.5rem;
-    color: black;
-
+    font-size: 20px;
+    margin-right: 1rem;
+    color:gray;
 }
-
+.headpara{
+    margin: 8px;
+}
 
 .content{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 10px;
+    height: 80vh;
     margin-top: 3rem;
     
 }
@@ -71,6 +74,7 @@ body{
     text-align:start;
     font-size: 20px;
     font-weight: 100;
+    color: gray;
  
 }
 
@@ -114,12 +118,14 @@ margin-left: 55px;
     font-weight: 400;
     color: white;
     font-size: 25px;
-    padding: 1rem;
+   margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .headpara{
-    font-size: 18px;
+    font-size: 15px;
     padding: 0.5rem;
+    color: gray;
 }
 .para1{
     
@@ -149,14 +155,38 @@ margin-left: 55px;
 .footerpics{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-bottom:4rem;
    
 }
 
 .image{
    
-    width: 40%;
+    width:60%;
+    height:100%;
 }
 
 .imagetext{
+    margin-left:-3rem;
+    align-items: center;
    
+}
+
+.number{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1rem;
+    color: gray;
+}
+.title{
+    font-size:18px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: wavy;
+    margin: 1rem;
 }
